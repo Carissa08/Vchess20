@@ -21,7 +21,7 @@ const SECTION_IDS: Section[] = [
 function App() {
   const [activeSection, setActiveSection] = useState<Section>('hero');
   const [user, setUser] = useState<AuthUser | null>(null);
-  const [authModalOpen, setAuthModalOpen] = useState(false);
+  <div style={{color:'white'}}>HELLO VCHESS</div>
   const [authLoading, setAuthLoading] = useState(false);
   const observerRef = useRef<IntersectionObserver | null>(null);
 
