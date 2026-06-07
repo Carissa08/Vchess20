@@ -1,40 +1,14 @@
-// App.tsx
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap');
 
-function App() {
-return (
-<div
-style={{
-minHeight: '100vh',
-background: '#07070A',
-color: 'white',
-display: 'flex',
-justifyContent: 'center',
-alignItems: 'center',
-flexDirection: 'column',
-fontFamily: 'Inter, sans-serif'
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+margin: 0;
+background: #07070A;
+font-family: 'Inter', sans-serif;
 }}
->
-<h1
-style={{
-fontSize: '60px',
-color: '#7B2FF7'
-}}
->
-VChessAI
-</h1>
-
-  <p
-    style={{
-      color: '#aaa',
-      fontSize: '20px'
-    }}
-  >
-    Futuristic Chess AI Project
-  </p>
-</div>
-
-);
-}
 
 export default App;/* Glow borders */
 .border-neon-purple {
