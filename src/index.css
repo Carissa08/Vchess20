@@ -1,66 +1,42 @@
+// App.tsx
+
+function App() {
 return (
-  <div
+<div
+style={{
+minHeight: '100vh',
+background: '#07070A',
+color: 'white',
+display: 'flex',
+justifyContent: 'center',
+alignItems: 'center',
+flexDirection: 'column',
+fontFamily: 'Inter, sans-serif'
+}}
+>
+<h1
+style={{
+fontSize: '60px',
+color: '#7B2FF7'
+}}
+>
+VChessAI
+</h1>
+
+  <p
     style={{
-      minHeight: '100vh',
-      background: '#07070A',
-      color: 'white',
-      display: 'flex',
-      justifyContent: 'center',
-      alignItems: 'center',
-      flexDirection: 'column',
-      fontFamily: 'Inter, sans-serif'
+      color: '#aaa',
+      fontSize: '20px'
     }}
   >
-    <h1 style={{ fontSize: '60px', color: '#7B2FF7' }}>
-      VChessAI
-    </h1>
+    Futuristic Chess AI Project
+  </p>
+</div>
 
-    <p style={{ color: '#aaa', fontSize: '20px' }}>
-      Futuristic Chess AI Project
-    </p>
-  </div>
-);/* Glass panels */
-.glass {
-  background: rgba(13, 13, 20, 0.7);
-  backdrop-filter: blur(20px);
-  -webkit-backdrop-filter: blur(20px);
-  border: 1px solid rgba(255, 255, 255, 0.05);
+);
 }
 
-.glass-purple {
-  background: rgba(123, 47, 247, 0.08);
-  backdrop-filter: blur(20px);
-  border: 1px solid rgba(123, 47, 247, 0.2);
-}
-
-.glass-blue {
-  background: rgba(58, 134, 255, 0.08);
-  backdrop-filter: blur(20px);
-  border: 1px solid rgba(58, 134, 255, 0.2);
-}
-
-/* Neon text */
-.text-neon-purple {
-  color: #9B4FFF;
-  text-shadow: 0 0 10px rgba(123, 47, 247, 0.8), 0 0 30px rgba(123, 47, 247, 0.4);
-}
-
-.text-neon-blue {
-  color: #60A5FA;
-  text-shadow: 0 0 10px rgba(58, 134, 255, 0.8), 0 0 30px rgba(58, 134, 255, 0.4);
-}
-
-.text-neon-cyan {
-  color: #00F5FF;
-  text-shadow: 0 0 10px rgba(0, 245, 255, 0.8);
-}
-
-.text-neon-green {
-  color: #00FF88;
-  text-shadow: 0 0 10px rgba(0, 255, 136, 0.8);
-}
-
-/* Glow borders */
+export default App;/* Glow borders */
 .border-neon-purple {
   border-color: rgba(123, 47, 247, 0.5);
   box-shadow: 0 0 10px rgba(123, 47, 247, 0.2), inset 0 0 10px rgba(123, 47, 247, 0.05);
