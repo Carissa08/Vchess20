@@ -1,40 +1,25 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+return (
+  <div
+    style={{
+      minHeight: '100vh',
+      background: '#07070A',
+      color: 'white',
+      display: 'flex',
+      justifyContent: 'center',
+      alignItems: 'center',
+      flexDirection: 'column',
+      fontFamily: 'Inter, sans-serif'
+    }}
+  >
+    <h1 style={{ fontSize: '60px', color: '#7B2FF7' }}>
+      VChessAI
+    </h1>
 
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
-
-:root {
-  --purple-neon: #7B2FF7;
-  --blue-neon: #3A86FF;
-  --cyan-neon: #00F5FF;
-  --green-neon: #00FF88;
-  --red-neon: #FF3366;
-  --gold: #FFD700;
-}
-
-* {
-  box-sizing: border-box;
-}
-
-html {
-  scroll-behavior: smooth;
-}
-
-body {
-  background-color: #07070A;
-  color: #F5F5F5;
-  font-family: 'Inter', sans-serif;
-  overflow-x: hidden;
-}
-
-/* Scrollbar */
-::-webkit-scrollbar { width: 6px; }
-::-webkit-scrollbar-track { background: #07070A; }
-::-webkit-scrollbar-thumb { background: #7B2FF7; border-radius: 3px; }
-::-webkit-scrollbar-thumb:hover { background: #9B4FFF; }
-
-/* Glass panels */
+    <p style={{ color: '#aaa', fontSize: '20px' }}>
+      Futuristic Chess AI Project
+    </p>
+  </div>
+);/* Glass panels */
 .glass {
   background: rgba(13, 13, 20, 0.7);
   backdrop-filter: blur(20px);
